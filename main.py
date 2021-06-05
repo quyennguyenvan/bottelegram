@@ -3,22 +3,10 @@ from telebot.apihelper import send_message
 from telebot.types import Chat
 import requests
 import json
+
 API_KEY = "1885106886:AAFBE8K_lo8-9YXifJjXPSKlXpWfqR_VDMg"
 
-BSC_API_KEY = 'HG1TZJPJHNAMFR61UAF94QWA5KABX6YSD2'
 
-BNC_KEY = "qAY5a041gEgMiodImKqOVbrMoVzaiKL9KisqfQcFIn7ANgX6nsMwdM7SRR39qJbU"
-BNC_SEC = "XXvNVVTGJLntmDb5UpnLADOwXgZXL3OjUoV0pawQDDwadICmsAy8SXuPu6XkutQf"
-
-
-WBNB_CONTRACT = '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c'
-WBNB_ADDRESS = '0xcaa6991DE146D316B15d92C33D8D07aEF972ABE2'
-WBNB_DECIMA = 18
-
-
-LITC_CONTRACT = '0x395678a4bab1cfe77bed9ddadca47b89a2b85dbb'
-LICT_ADDRESS = '0xcaa6991DE146D316B15d92C33D8D07aEF972ABE2'
-LITC_DECIMA  = 9
 
 def getPrice():
     data = open("pricupdate.json")
